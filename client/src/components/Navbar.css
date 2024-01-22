@@ -1,0 +1,30 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
